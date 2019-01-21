@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env",{
+      "modules": "commonjs",
+      "targets": {
+        "browsers": [
+          "last 3 Chrome versions",
+          "last 3 Firefox versions",
+          "iOS >= 8",
+          "Android >= 4"
+        ]
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-vue-jsx"
+  ]
+}
